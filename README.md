@@ -11,6 +11,14 @@ This example has two models Student and Project associated using <b>has_and_belo
 Views for editing and displaying the projects also functional
 
 <hr>
+<h1> Added Devise gem </h1>
+This example now has user authentication feature using Devise gem. <br>
+The root of the app now points to the signup page. The operations of New, 
+Edit, and Destroy for Student and Project resource are only available after
+signing in. Index, and Show work without signing in.
+
+
+<hr>
 
 <h1> Testing rails app</h1>
 
