@@ -14,7 +14,7 @@ Views for editing and displaying the projects also functional
 
 <h1> Testing rails app</h1>
 
-The example has been extended to include testing, starting with unit test
+The example has been extended to include testing, starting with unit test <br>
 <i>test/models/student_test.rb </i> contains a test "test_without_name"
 run the test by executing <b> rake test test_without_name </b>in console
 the test will fail if the validation line <b> validates :name, presence: true </b>
