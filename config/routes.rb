@@ -8,11 +8,12 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   devise_scope :user do
-     root 'devise/registrations#new'
+  root 'projects#index'
+#   devise_scope :user do
+
 	   #post "/sessions" => "sessions#create"
      #delete "/sessions" => "sessions#destroy"
-   end
+#   end
    
 
   # Example of regular route:
