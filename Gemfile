@@ -1,4 +1,8 @@
 source 'http://rubygems.org'
+# gem for using environment variables
+group :development, :test do
+	gem 'foreman'
+end
 
 # devise for user authentication
 gem 'devise'
