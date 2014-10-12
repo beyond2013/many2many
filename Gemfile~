@@ -1,8 +1,7 @@
 source 'http://rubygems.org'
 # gem for using environment variables
-group :development, :test do
-	gem 'foreman'
-end
+ gem 'foreman', group: :production
+
  gem 'rails_12factor', group: :production
 # devise for user authentication
 gem 'devise'
