@@ -1,4 +1,10 @@
 source 'http://rubygems.org'
+# gem for using environment variables
+group :development, :test do
+	gem 'foreman'
+end
+# gem for deploying rails app to heroku cloud 
+gem 'heroku'
 
 # devise for user authentication
 gem 'devise'

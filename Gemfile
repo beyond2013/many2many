@@ -3,7 +3,6 @@ source 'http://rubygems.org'
 group :development, :test do
 	gem 'foreman'
 end
-
 # devise for user authentication
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
