@@ -3,6 +3,8 @@ source 'http://rubygems.org'
 group :development, :test do
 	gem 'foreman'
 end
+
+ gem 'rails_12factor', group: :production
 # devise for user authentication
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
